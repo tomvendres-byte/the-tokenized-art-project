@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="assets/logo.png" alt="The Tokenized Art Project Logo" width="180">
+</p>
+
+<h1 align="center">The Tokenized Art Project ($ART)</h1>
+
 # The Tokenized Art Project ($ART)
 
 Art has been one of humanity’s most valuable assets for centuries.
