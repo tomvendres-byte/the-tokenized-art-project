@@ -18,18 +18,18 @@ The Tokenized Art Project is a comprehensive Web3 platform that empowers artists
 
 ## 🚀 Quick Start
 
-\`\`\`bash
+```bash
 # Clone the repository
 git clone https://github.com/rthefinder/the-tokenized-art-project.git
 cd the-tokenized-art-project
 
 # Run the quick setup script
 ./QUICKSTART.sh
-\`\`\`
+```
 
 Or manually:
 
-\`\`\`bash
+```bash
 # Install dependencies
 pnpm install
 
@@ -40,11 +40,11 @@ cp packages/indexer/.env.example packages/indexer/.env
 
 # Start development
 pnpm dev
-\`\`\`
+```
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 the-tokenized-art-project/
 ├── apps/
 │   └── web/                    # Next.js frontend application
@@ -57,7 +57,7 @@ the-tokenized-art-project/
 │   └── indexer/                # Blockchain event indexer
 ├── docs/                       # Comprehensive documentation
 └── scripts/                    # Helper scripts
-\`\`\`
+```
 
 ## 🔧 Technology Stack
 
@@ -81,7 +81,7 @@ the-tokenized-art-project/
 
 ## 🧪 Testing
 
-\`\`\`bash
+```bash
 # Run all tests
 pnpm test
 
@@ -93,7 +93,7 @@ cd contracts && pnpm test:coverage
 
 # Run with gas reporting
 cd contracts && pnpm test:gas
-\`\`\`
+```
 
 ## 📚 Documentation
 
@@ -120,30 +120,30 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### ArtNFT721
 ERC-721 contract for unique 1/1 artworks with built-in royalty support.
 
-\`\`\`solidity
+```solidity
 function mint(
     address to,
     string calldata tokenURI,
     uint96 royaltyFee
 ) external returns (uint256)
-\`\`\`
+```
 
 ### ArtNFT1155
 ERC-1155 contract for limited edition artwork series.
 
-\`\`\`solidity
+```solidity
 function mint(
     address to,
     uint256 amount,
     string calldata tokenURI,
     uint96 royaltyFee
 ) external returns (uint256)
-\`\`\`
+```
 
 ### ArtMarketplace
 Decentralized marketplace with automatic royalty distribution.
 
-\`\`\`solidity
+```solidity
 function listItem(
     address nftContract,
     uint256 tokenId,
@@ -154,7 +154,7 @@ function buyItem(
     address nftContract,
     uint256 tokenId
 ) external payable
-\`\`\`
+```
 
 ## 🎯 Roadmap
 
